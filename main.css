@@ -1,0 +1,307 @@
+.logo h1 {
+	font-size: 53px;
+	color: #12336E;
+	margin-left: 40%;
+}
+.logo {
+	width: 100%;
+	position: fixed;
+	top: 0.05px;
+	z-index: 5;
+	background-color:#ECECFB;
+	color: #004242;
+}
+
+.menu {
+	display: block;
+	top: 250px;
+	float: left;
+	width: 18%;
+	border: 3px solid blue;
+	background-color: orange;
+	border-radius: 30px;
+	margin-right: 20px;
+}
+.menu a {
+	font-size: 24px;
+	color: black;
+}
+
+.menuline {
+	height: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+}
+.upmenu {
+	top: 120px;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+.upmenu2 {
+	border: 0.1vh solid #ECECFB;
+	border-right: 0vh none;
+	text-align: center;
+	width: 19.9%;
+	float: left;
+	background-color: #333333;
+	font-size: 24px;
+	height: 50px;
+	padding-bottom: 5px;
+	padding-top: 25px;
+}
+.upmenu a {
+	font-weight: bolder;
+	font-size: 24px;
+	color: #84C8D7;
+}
+.drop {
+}
+.dropcontent {
+	width: 100%;
+	display: none;
+	text-align: center;
+	font-size: 24px;
+	background-color: #333333;
+	border: 0.1vh solid #ECECFB;
+	margin-top: 27px;
+	margin-left: -0.2vh;
+}
+.dropcontent a {
+	color: #ECECFB;
+	display: block;
+	border-bottom: 0.1vh solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.dropcontent div {
+}
+.drop:hover .dropcontent {
+	display: block;
+}
+
+.title2 {
+	position: relative;
+	text-align: center; 
+	font-size: 50px;
+	font-family: sans-serif;
+	margin-top: 230px;
+	color:yellow;
+	font-weight: bold;
+}
+
+.sim-slider {
+  position: relative;
+}
+
+.sim-slider-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.sim-slider-element {
+  width: 80%;
+  margin-left: 10%;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+
+}
+
+/* Navigation item styles */
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+}
+
+div.sim-slider-arrow-left {
+  left: 20%;
+  top: 230px;
+  display: show;
+  background: url("34.png") no-repeat;
+}
+
+div.sim-slider-arrow-right {
+  right: 20%;
+  top: 230px;
+  display: show;
+  background: url("35.png") no-repeat;
+}
+
+div.sim-slider-arrow-left:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-arrow-right:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-dots {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+}
+
+span.sim-dot {
+  width: 20px;
+  height: 20px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #BBB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+	background-color: #040404;
+}
+
+section {
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.news-area1 {
+	margin-top: 2.5%;
+	border: 3px solid #949599;
+	padding: 1%;
+	background: url("flag4.jpg") no-repeat; 
+	background-size: 100%;
+	width: 80%;
+	height: 70%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+	margin-top: 30%;
+}
+
+.news-area2 {
+	margin-top: 2.5%;
+	border: 3px solid #949599;
+	padding: 1%;
+	background: #333333; 
+	background-size: 100%;
+	width: 20%;
+	height: 100%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+}
+
+.news-area3 {
+	margin-top: 1%;
+	border: 3px solid #949599;
+	padding: 1%;
+	background: #333333; 
+	background-size: 100%;
+	width: 80%;
+	height: 100%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+}
+
+.news-area4 {
+	margin-top: 1%;
+	border: 3px solid #949599;
+	padding: 1%;
+	background: #333333; 
+	background-size: 100%;
+	width: 46%;
+	height: 100%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	border-radius: 30px;
+}
+
+.news-area2 img {
+	width: 50%;
+	height: 50%;
+	text-align:  left;
+}
+
+.text1 {
+	font-size: 30px;
+}
+
+.text2 {
+	font-size: 26px;
+	text-align: left;
+	z-index: 1;
+}
+
+.text3 {
+	font-size: 30px;
+	padding-top: 10%;
+	color : #84C8D7;
+	text-align: center;
+}
+.text4 {
+	font-size: 26px;
+	color : #84C8D7;
+	text-align: center;
+}
+
+.text5{
+	font-size:22px;
+	color: #A7132D;
+	text-align: center;
+}
+
+.text6 {
+	font-size:18px;
+	color: #6577C1;
+	text-align: center;
+}
+
+.text7 {
+	font-size:28px;
+	color: #84C8D7;
+	text-align: center;
+}
+
+.text8 {
+	font-family: serif;
+	font-size: 28px;
+	color: red;
+	text-align: center; 
+}
+
+.maps {
+	width: 100%; height: 100%; float: left;
+	text-align: center; 
+}
+
+.mail {
+	color:yellow;
+}
+
+a.not_active {
+	pointer-events: none;
+	cursor: default;
+	color: #8488FF;
+}
